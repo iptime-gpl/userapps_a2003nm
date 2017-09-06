@@ -1,0 +1,1 @@
+clones/a2003nm/clone_info.mk
