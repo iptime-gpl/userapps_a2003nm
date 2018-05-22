@@ -2,7 +2,7 @@
  * Automatically generated C config: don't edit
  * Busybox version: 1.13.4
  */
-#define AUTOCONF_TIMESTAMP "2017-08-21 09:49:18 KST"
+#define AUTOCONF_TIMESTAMP "2017-10-30 18:33:15 KST"
 
 #define CONFIG_HAVE_DOT_CONFIG 1
 #define ENABLE_HAVE_DOT_CONFIG 1
@@ -1012,14 +1012,14 @@
 /*
  * Editors
  */
-#define CONFIG_AWK 1
-#define ENABLE_AWK 1
-#define USE_AWK(...) __VA_ARGS__
-#define SKIP_AWK(...)
-#define CONFIG_FEATURE_AWK_LIBM 1
-#define ENABLE_FEATURE_AWK_LIBM 1
-#define USE_FEATURE_AWK_LIBM(...) __VA_ARGS__
-#define SKIP_FEATURE_AWK_LIBM(...)
+#undef CONFIG_AWK
+#define ENABLE_AWK 0
+#define USE_AWK(...)
+#define SKIP_AWK(...) __VA_ARGS__
+#undef CONFIG_FEATURE_AWK_LIBM
+#define ENABLE_FEATURE_AWK_LIBM 0
+#define USE_FEATURE_AWK_LIBM(...)
+#define SKIP_FEATURE_AWK_LIBM(...) __VA_ARGS__
 #undef CONFIG_CMP
 #define ENABLE_CMP 0
 #define USE_CMP(...)

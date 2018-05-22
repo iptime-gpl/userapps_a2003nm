@@ -534,6 +534,14 @@ deps_drivers/net/rtl819x/rtl865x/../AsicDriver/rtl865x_asicL2.o := \
   drivers/net/rtl819x/rtl865x/../AsicDriver/rtl865x_asicL2.h \
     $(wildcard include/config/rtl/long/eth/cable/refine.h) \
     $(wildcard include/config/rtl/duplex/mismatch.h) \
+  /home/rtlac/RTL3.4/rtl819x_3.4.11b/rtl819x/linux-3.10/arch/mips-ori/include/../bsp/bspchip.h \
+    $(wildcard include/config/use/uapi.h) \
+    $(wildcard include/config/irq/ictl.h) \
+    $(wildcard include/config/irq/gpio.h) \
+    $(wildcard include/config/rtk/fpga.h) \
+    $(wildcard include/config/serial/rtl/uart1.h) \
+    $(wildcard include/config/serial/rtl/uart2.h) \
+    $(wildcard include/config/p3/gpio.h) \
   drivers/net/rtl819x/rtl865x/../AsicDriver/asicRegs.h \
   drivers/net/rtl819x/rtl865x/../AsicDriver/rtl865xc_asicregs.h \
     $(wildcard include/config/rtl8196b.h) \
